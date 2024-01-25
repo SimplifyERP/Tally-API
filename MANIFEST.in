@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tally_api *.css
+recursive-include tally_api *.csv
+recursive-include tally_api *.html
+recursive-include tally_api *.ico
+recursive-include tally_api *.js
+recursive-include tally_api *.json
+recursive-include tally_api *.md
+recursive-include tally_api *.png
+recursive-include tally_api *.py
+recursive-include tally_api *.svg
+recursive-include tally_api *.txt
+recursive-exclude tally_api *.pyc
